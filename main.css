@@ -53,7 +53,7 @@ body{
 	text-decoration: none;
 	color: #19499D;
 }
-@media (min-width: 800px){
+@media (min-width: 799px){
 	#nav-dropdown{
 		display: none;
 	}
@@ -63,5 +63,36 @@ body{
 	#navbar{
 		display: none;
 	}
-	
+	#nav-button {
+	    background-color: #DAD6D5;
+	    color: white;
+	    border: none;
+	    cursor: pointer;
+	    padding:20px;
+	    margin-top:20px;
+	}
+	#nav-dropdown {
+	    position: fixed;
+	}
+	#dropdown {
+	    display: none;
+	    background-color: black;
+	    min-width: 200px;
+	}
+	#dropdown a {
+	    color: white;
+	    padding: 20px;
+	    text-decoration: none;
+	    display: block;
+	}
+	#nav-dropdown:hover #dropdown {
+	    display: block;
+	}
+	#main-doc{
+		padding: 20px 10px 20px 20px;
+		left: 50px; 
+	}
+	#main-doc p{
+		padding-right: 5%;
+	}
 }
