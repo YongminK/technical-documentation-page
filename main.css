@@ -87,8 +87,10 @@ body{
 	    padding: 20px;
 	    text-decoration: none;
 	    display: block;
+	    background-color: #EEE9E7;
 	}
-	#nav-dropdown:hover #dropdown {
+
+	#nav-dropdown:focus #dropdown {
 	    display: block;
 	}
 	#main-doc{
